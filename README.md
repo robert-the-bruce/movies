@@ -37,5 +37,4 @@ Zur Erstellung  des ER-Diagramms und der dazugehörigen SQL-Datenbank habe ich m
 4. Im Browser localhost/movie eingeben
 
 5. Movie testen
-    
-     # theater
+
