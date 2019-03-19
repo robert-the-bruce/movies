@@ -1,0 +1,16 @@
+<div class="navBar" id="mainNavBar">
+    <a href="?seite=show_movie" target="_self">Aktuelle Filmliste</a>
+    <a href="?seite=update_movie" target="_self">Erfasste Filme ändern</a>
+    <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+    <!--&#9776; is the code for the 3 line menu button-->
+</div>
+<script type="application/javascript">
+    function openDrawerMenu(){
+        var x = document.getElementById("mainNavBar");
+        if (x.className === "navBar"){
+            x.className += " responsive";
+        } else {
+            x.className = "navBar";
+        }
+    }
+</script>
